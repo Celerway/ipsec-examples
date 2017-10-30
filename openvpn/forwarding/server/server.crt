@@ -1,0 +1,98 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=NO, L=SanFrancisco, O=Oslo, OU=Blabla, CN=Oslo CA/name=EasyRSA/emailAddress=kristrev@celerway.com
+        Validity
+            Not Before: Oct 20 11:28:37 2016 GMT
+            Not After : Oct 18 11:28:37 2026 GMT
+        Subject: C=NO, L=SanFrancisco, O=Oslo, OU=Blabla, CN=server/name=EasyRSA/emailAddress=kristrev@celerway.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:aa:dc:05:27:a6:25:ce:29:49:a9:7b:bd:5e:5e:
+                    83:34:5c:0b:94:43:19:c7:1f:df:b5:7b:84:59:74:
+                    49:c3:6b:1c:7d:c0:10:b4:ab:c0:9f:3b:09:d4:99:
+                    19:f3:49:35:c1:e0:b5:32:2f:e1:98:22:4f:8e:86:
+                    8a:37:03:44:cf:e3:cf:cc:ae:b4:ef:27:99:23:9a:
+                    5f:6a:cd:8e:68:06:c6:a0:e8:74:48:8e:e8:48:5d:
+                    97:74:e6:89:ed:f4:c1:94:19:26:f1:9d:e3:de:77:
+                    65:64:ef:2d:6b:dd:bb:35:06:5a:18:78:20:9d:82:
+                    36:26:53:60:53:40:cd:39:51:d5:2b:f7:3f:d9:b1:
+                    70:d9:c8:a9:77:d3:cc:ac:08:9d:ee:c3:d4:45:1d:
+                    0b:ae:b6:4f:03:d3:18:1d:17:29:b7:7c:30:28:f6:
+                    0d:3f:86:2f:ea:49:03:f6:cd:5a:3b:7e:a6:9d:2a:
+                    b3:6b:4b:3a:fc:fb:1e:55:9c:bb:c1:8f:de:33:3b:
+                    62:89:37:cb:8d:2f:a5:ba:8d:50:a0:fa:ef:a6:73:
+                    0f:41:e0:e1:d3:72:25:d2:0a:d0:e1:a6:be:54:b8:
+                    90:d7:99:74:d4:1c:3d:5b:c5:73:e6:5a:5c:b0:6c:
+                    7e:b2:01:b3:73:92:af:3c:0b:d9:73:2f:7e:ee:cf:
+                    93:bb
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                EC:DB:D9:5E:80:82:89:C2:D8:3C:6B:8A:F1:5A:10:0C:C2:1B:30:DF
+            X509v3 Authority Key Identifier: 
+                keyid:F2:8B:A8:9C:08:75:D7:1C:28:52:24:40:17:08:0E:40:EB:41:35:32
+                DirName:/C=NO/L=SanFrancisco/O=Oslo/OU=Blabla/CN=Oslo CA/name=EasyRSA/emailAddress=kristrev@celerway.com
+                serial:B4:FC:45:A8:21:F3:64:40
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:server
+    Signature Algorithm: sha256WithRSAEncryption
+         20:66:85:21:f7:62:bd:58:24:ae:25:45:72:08:8f:53:e7:93:
+         a9:7c:90:8a:82:d7:4e:d4:c7:fd:4d:b3:2b:7c:02:41:14:1d:
+         75:69:3f:90:5b:46:ba:ab:1d:bc:57:88:da:c4:63:22:a9:b8:
+         15:cd:b1:4a:09:66:1b:a7:0f:c1:79:98:fe:a6:5c:08:21:88:
+         16:b3:f8:f4:a2:c7:92:6c:12:d7:35:5d:ea:4f:a2:a9:92:84:
+         95:bd:c6:e4:5e:4b:f3:11:d4:93:81:ff:72:70:1c:79:e2:13:
+         8d:6c:3a:ec:0d:2b:12:2e:68:a3:0c:83:27:87:61:87:06:70:
+         4c:12:b7:b5:6b:e3:26:d4:66:cb:71:34:3f:6d:40:55:b5:19:
+         8a:bb:80:72:85:01:23:a9:a1:70:20:ce:01:0a:c4:a3:50:a7:
+         58:ae:0b:0a:c7:71:88:2b:6d:df:a3:17:71:07:9d:2a:4a:07:
+         52:be:7f:c5:dd:5d:cf:72:25:ee:81:68:dc:f9:88:81:57:89:
+         df:7a:77:6f:52:e6:f3:cd:cf:b2:5f:b7:14:ec:82:ef:d2:21:
+         60:83:c3:84:97:71:79:ce:be:6e:26:49:22:1a:b9:ed:ec:53:
+         a0:bb:39:e1:20:e4:19:5e:d8:f1:33:e7:6d:bf:94:6b:53:68:
+         b9:e8:e9:bf
+-----BEGIN CERTIFICATE-----
+MIIFDDCCA/SgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjjELMAkGA1UEBhMCTk8x
+FTATBgNVBAcTDFNhbkZyYW5jaXNjbzENMAsGA1UEChMET3NsbzEPMA0GA1UECxMG
+QmxhYmxhMRAwDgYDVQQDEwdPc2xvIENBMRAwDgYDVQQpEwdFYXN5UlNBMSQwIgYJ
+KoZIhvcNAQkBFhVrcmlzdHJldkBjZWxlcndheS5jb20wHhcNMTYxMDIwMTEyODM3
+WhcNMjYxMDE4MTEyODM3WjCBjTELMAkGA1UEBhMCTk8xFTATBgNVBAcTDFNhbkZy
+YW5jaXNjbzENMAsGA1UEChMET3NsbzEPMA0GA1UECxMGQmxhYmxhMQ8wDQYDVQQD
+EwZzZXJ2ZXIxEDAOBgNVBCkTB0Vhc3lSU0ExJDAiBgkqhkiG9w0BCQEWFWtyaXN0
+cmV2QGNlbGVyd2F5LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB
+AKrcBSemJc4pSal7vV5egzRcC5RDGccf37V7hFl0ScNrHH3AELSrwJ87CdSZGfNJ
+NcHgtTIv4ZgiT46GijcDRM/jz8yutO8nmSOaX2rNjmgGxqDodEiO6Ehdl3Tmie30
+wZQZJvGd4953ZWTvLWvduzUGWhh4IJ2CNiZTYFNAzTlR1Sv3P9mxcNnIqXfTzKwI
+ne7D1EUdC662TwPTGB0XKbd8MCj2DT+GL+pJA/bNWjt+pp0qs2tLOvz7HlWcu8GP
+3jM7Yok3y40vpbqNUKD676ZzD0Hg4dNyJdIK0OGmvlS4kNeZdNQcPVvFc+ZaXLBs
+frIBs3OSrzwL2XMvfu7Pk7sCAwEAAaOCAXIwggFuMAkGA1UdEwQCMAAwEQYJYIZI
+AYb4QgEBBAQDAgZAMDQGCWCGSAGG+EIBDQQnFiVFYXN5LVJTQSBHZW5lcmF0ZWQg
+U2VydmVyIENlcnRpZmljYXRlMB0GA1UdDgQWBBTs29legIKJwtg8a4rxWhAMwhsw
+3zCBwwYDVR0jBIG7MIG4gBTyi6icCHXXHChSJEAXCA5A60E1MqGBlKSBkTCBjjEL
+MAkGA1UEBhMCTk8xFTATBgNVBAcTDFNhbkZyYW5jaXNjbzENMAsGA1UEChMET3Ns
+bzEPMA0GA1UECxMGQmxhYmxhMRAwDgYDVQQDEwdPc2xvIENBMRAwDgYDVQQpEwdF
+YXN5UlNBMSQwIgYJKoZIhvcNAQkBFhVrcmlzdHJldkBjZWxlcndheS5jb22CCQC0
+/EWoIfNkQDATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwEQYDVR0R
+BAowCIIGc2VydmVyMA0GCSqGSIb3DQEBCwUAA4IBAQAgZoUh92K9WCSuJUVyCI9T
+55OpfJCKgtdO1Mf9TbMrfAJBFB11aT+QW0a6qx28V4jaxGMiqbgVzbFKCWYbpw/B
+eZj+plwIIYgWs/j0oseSbBLXNV3qT6KpkoSVvcbkXkvzEdSTgf9ycBx54hONbDrs
+DSsSLmijDIMnh2GHBnBMEre1a+Mm1GbLcTQ/bUBVtRmKu4ByhQEjqaFwIM4BCsSj
+UKdYrgsKx3GIK23foxdxB50qSgdSvn/F3V3PciXugWjc+YiBV4nfendvUubzzc+y
+X7cU7ILv0iFgg8OEl3F5zr5uJkkiGrnt7FOguznhIOQZXtjxM+dtv5RrU2i56Om/
+-----END CERTIFICATE-----
